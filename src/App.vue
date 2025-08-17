@@ -14,12 +14,14 @@ const loremIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don
       highlight({ start: 1, end: 35 }, Tag, { tag: 'mark' }),
       highlight({ start: 5, end: 80 }, Tag, { tag: 'strong' }),
       highlight({ start: 15, end: 30 }, Tag, { tag: 'em' }),
-      highlight({ start: 70, end: 90 }, Tag, { tag: 'a' })
+      highlight({ start: 70, end: 90 }, Tag, { tag: 'a' }),
+      highlight({ start: 105, end: 115 }, Tag, { tag: 'mark' }),
+      highlight({ start: 107, end: 112 }, Tag, { tag: 'strong' }),
+      highlight({ start: 102, end: 109 }, WithIcon, {}),
+
+
     ]"
   />
-  <WithIcon>
-    Hello World
-  </WithIcon>
 </template>
 
 <style scoped></style>
